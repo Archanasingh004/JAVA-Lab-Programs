@@ -1,0 +1,23 @@
+ class Complex {
+     int real;int img;
+     Complex(int real, int img)
+     {
+         this.real=real;
+         this.img=img;
+     }
+    public static Complex add(Complex x, Complex y)
+    {
+        return new Complex(x.real - y.real ,x.img - y.img);
+    }
+        
+}
+ class B
+ {
+     public static void main(String args[])
+     {
+         Complex x = new Complex(5,8);
+         Complex y = new Complex(2,4);
+         Complex z= Complex.add(x,y);
+         System.out.println(z.real + "-" + z.img + "i");
+     }
+ }
