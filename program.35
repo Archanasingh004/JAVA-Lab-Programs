@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) 
+
+	{
+	    String first = "Java";
+	    	System.out.println("first String" + first);
+	    	
+	    String second = "Programming";
+	    System.out.println("seconf String" + second);
+	    
+	    second=first.substring(0,2);
+	    	
+	    String joinedString = first.concat(second);
+	    System.out.println("joined String:" + joinedString);
+	
+	}
+}
