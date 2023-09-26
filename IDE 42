@@ -1,0 +1,117 @@
+
+// intialize and print array
+/*import java.util.*;
+ class Array
+{
+	public static void main(String[] args)
+	{
+	    int[]age =new int[]{1,2,3};
+	    	System.out.println(age.length);
+	  
+	    for(int a: age)
+	    {
+	      	System.out.println(a);
+	    }
+	}
+}
+*/
+
+//wap to create int array cal the sum and average of all element using for each loop
+
+/*import java.util.*;
+ class Array
+{
+	public static void main(String[] args)
+	
+	{
+	    int a[]= new int [10];
+	    int sum = 0;
+	    //double avg=0;
+	    for(int i=0;i<10;i++)
+	    {
+	      Scanner input = new Scanner(System.in);
+	      System.out.printf("Elment of a[%d]:",i);
+	      sum=input.nextInt();
+	 
+	   
+	   }
+	   for(int i:a)
+	    {
+	        sum+=i;
+	    }  
+	     System.out.println("Sum values of aray:" +sum);
+	
+}	
+	
+}	
+*/	
+	
+
+/*	
+import java.util.Array;
+ class Array
+{
+	public static void main(String[] args)
+	
+	{
+	    int a[] = {2000,1979,1980,2002};
+	    String[]s= {"aru","anu","anshi"};
+	    System.out.println("Integer array is :"+ Array.toString(a));
+	    Array.sort(a);
+	      System.out.println("Sorting array is :"+ Array.toString(a));
+	      System.out.println("String array is :"+ Array.toString(a));
+	    Array.sort(s);
+	     System.out.println("Sorting array is :"+ Array.toString(a));
+	    
+	}
+}
+
+
+import java.util.Arrays;
+ class Array
+{
+	public static void main(String[] args)
+	
+	{
+	    int a[] = {2000,1979,1980,2002};
+	  
+	    System.out.println("maximum element is :"+ Arrays.toString(a));
+	    Arrays.sort(a);
+	      System.out.println("min array is :"+ a[0]);
+	      System.out.println("max array is :"+ a[3]);
+	    
+	    
+	}
+}
+*/
+
+
+
+import java.util.Arrays;
+ class Array
+{
+	public static void main(String[] args)
+	
+	{
+	    int a[] = {1,20,19,18,10};
+	    int n = a.length;
+	    int countEven=0, countOdd=0;
+	    for(int i=0; i<n; i++)
+	    {
+	        if((a[i]%2)==0)
+	        countEven+=1;
+	        else 
+	        countOdd+=1;
+	        
+	    }
+	    System.out.println("even  count :"+ countEven);
+	    System.out.println("even  count :"+ countOdd);
+	   
+	    
+	}
+}
+
+
+
+
+
