@@ -15,7 +15,7 @@ public class LinearSearch{
     {
         int[]a1 = { 10,20,30,40,50,70,90};
         int key = 50;
-      //  LinearSearch l = new LinearSearch();
+    
         int i = linearSearch(a1,key);
         if(i==-1)
         System.out.println("element found at");
