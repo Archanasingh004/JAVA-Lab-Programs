@@ -1,0 +1,23 @@
+ import java.util.*;
+ interface solution
+ {
+        public void Hello();
+        public void Welcome();
+        
+    }
+    public class A implements solution{
+        public void Hello(){
+            java.lang.System.out.println("Hello world");
+        }
+        public void Welcome(){
+             java.lang.System.out.println("Welocome to edureka");
+     
+        }
+        
+        public static void main(String[]args){
+            A a= new A();
+            a.Hello();
+            a.Welcome();
+        }
+    }
+        
